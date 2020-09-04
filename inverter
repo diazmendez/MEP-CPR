@@ -1,0 +1,1 @@
+for ((i = 5 ; i > 0; i--)); do head -n $i test2.c | tail -n 1; done
